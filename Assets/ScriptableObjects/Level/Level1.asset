@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Level1
   m_EditorClassIdentifier: Assembly-CSharp::LevelData
   levelIndex: 1
-  levelName: Sawah
+  levelName: Market
   sceneName: Level01
   targetScore: 20
   thumbnail: {fileID: 0}

@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 991f58af75905e947804986054e11ff7, type: 3}
-  m_Name: Level2
+  m_Name: Level3
   m_EditorClassIdentifier: Assembly-CSharp::LevelData
-  levelIndex: 2
-  levelName: School
-  sceneName: Level02
+  levelIndex: 3
+  levelName: Village
+  sceneName: Level03
   targetScore: 20
   thumbnail: {fileID: 0}

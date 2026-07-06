@@ -186,10 +186,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e33b54f294e00409f438bcd51dbc1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCAppearance
-  appearanceData: {fileID: 0}
-  hairRenderer: {fileID: 0}
-  shirtRenderer: {fileID: 0}
-  pantsRenderer: {fileID: 0}
+  appearanceData: {fileID: 11400000, guid: 9a090dd939eaa644e9fdc398ab030492, type: 2}
+  hairRenderer: {fileID: 6158758772836105336}
+  shirtRenderer: {fileID: 7840122562400773898}
+  pantsRenderer: {fileID: 1139569586027456872}
 --- !u!114 &8475121467036309309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -318,8 +318,23 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f10c7e1aff6b06946b55ed0e4b5edaf4, type: 3}
+--- !u!137 &1139569586027456872 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -6002508473797582251, guid: f10c7e1aff6b06946b55ed0e4b5edaf4, type: 3}
+  m_PrefabInstance: {fileID: 2549704623904820029}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2659630279185525974 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f10c7e1aff6b06946b55ed0e4b5edaf4, type: 3}
+  m_PrefabInstance: {fileID: 2549704623904820029}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &6158758772836105336 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8510132731797305157, guid: f10c7e1aff6b06946b55ed0e4b5edaf4, type: 3}
+  m_PrefabInstance: {fileID: 2549704623904820029}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &7840122562400773898 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5742066667910392887, guid: f10c7e1aff6b06946b55ed0e4b5edaf4, type: 3}
   m_PrefabInstance: {fileID: 2549704623904820029}
   m_PrefabAsset: {fileID: 0}

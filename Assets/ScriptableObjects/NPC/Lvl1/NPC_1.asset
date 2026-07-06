@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb091e08901d9554a8f45337a48c58ed, type: 3}
+  m_Name: NPC_1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  name: Bu Lina
+  situation: Keranjang ini menghalangi pembeli.
+  optionA:
+    text: Memindahkan keranjang.
+    score: 5
+    isCorrect: 1
+  optionB:
+    text: Memberi tahu Bu Lina
+    score: 0
+    isCorrect: 0
+  optionC:
+    text: Mengabaikan.
+    score: 6
+    isCorrect: 0

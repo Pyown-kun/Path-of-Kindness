@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb091e08901d9554a8f45337a48c58ed, type: 3}
-  m_Name: NPC_1
+  m_Name: NPC_4
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
-  name: Pak Budi
-  situation: Kamu Lagi Ngapain?
+  name: Eko
+  situation: Emberku tertinggal di jalan. Takut ada yang menabraknya.
   optionA:
-    text: Bernafas
-    score: 20
-    isCorrect: 1
+    text: Memberi tahu pemilik.
+    score: 0
+    isCorrect: 0
   optionB:
-    text: 
-    score: -10
+    text: Mengabaikan.
+    score: 0
     isCorrect: 0
   optionC:
-    text: :)
-    score: 10
-    isCorrect: 0
+    text: Mengembalikan ember.
+    score: 5
+    isCorrect: 1

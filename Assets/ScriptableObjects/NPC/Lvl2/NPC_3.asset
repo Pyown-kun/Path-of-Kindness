@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb091e08901d9554a8f45337a48c58ed, type: 3}
+  m_Name: NPC_3
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  name: Pak Budi
+  situation: Laci meja masih terbuka. Nanti ada yang tidak sengaja menabraknya.
+  optionA:
+    text: Mengabaikan.
+    score: 0
+    isCorrect: 0
+  optionB:
+    text: Menutup laci.
+    score: 5
+    isCorrect: 1
+  optionC:
+    text: Memberi tahu guru.
+    score: 0
+    isCorrect: 0
