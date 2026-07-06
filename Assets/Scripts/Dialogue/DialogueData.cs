@@ -5,10 +5,11 @@ using UnityEngine;
     menuName = "Game/Dialogue Data")]
 public class DialogueData : ScriptableObject
 {
-    [Header("Situation")]
 
+    [Header("Name")]
     public string name;
 
+    [Header("Situation")]
     [TextArea(5,10)]
     public string situation;
 

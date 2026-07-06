@@ -7,6 +7,9 @@ public class DialogueUI : MonoBehaviour
     [Header("Panel")]
     [SerializeField] private GameObject panel;
 
+    [Header("Name")]
+    [SerializeField] private TMP_Text nameText;
+    
     [Header("Situation")]
     [SerializeField] private TMP_Text situationText;
 
@@ -31,11 +34,12 @@ public class DialogueUI : MonoBehaviour
         
         panel.SetActive(true);
 
+        nameText.text = data.name;
         situationText.text = data.situation;
 
-        buttonAText.text = data.optionA.optionText;
-        buttonBText.text = data.optionB.optionText;
-        buttonCText.text = data.optionC.optionText;
+        buttonAText.text = data.optionA.text;
+        buttonBText.text = data.optionB.text;
+        buttonCText.text = data.optionC.text;
 
         buttonA.onClick.RemoveAllListeners();
         buttonB.onClick.RemoveAllListeners();

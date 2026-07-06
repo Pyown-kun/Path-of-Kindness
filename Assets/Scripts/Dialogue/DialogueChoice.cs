@@ -3,9 +3,9 @@ using System;
 [Serializable]
 public class DialogueChoice
 {
-    public string optionText;
+    public string text;
 
     public int score;
 
-    public bool isBestChoice;
+    public bool isCorrect;
 }

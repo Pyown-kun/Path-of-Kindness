@@ -15,14 +15,14 @@ MonoBehaviour:
   name: Pak Budi
   situation: Kamu Lagi Ngapain?
   optionA:
-    optionText: Skripsian nih, Cari Judul
-    score: 30
-    isBestChoice: 1
+    text: Bernafas
+    score: 20
+    isCorrect: 1
   optionB:
-    optionText: gk ngapa2 in
+    text: 
     score: -10
-    isBestChoice: 0
+    isCorrect: 0
   optionC:
-    optionText: Skripsian
+    text: :)
     score: 10
-    isBestChoice: 0
+    isCorrect: 0

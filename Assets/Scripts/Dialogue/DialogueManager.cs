@@ -68,9 +68,8 @@ public class DialogueManager : MonoBehaviour
 
         GameManager.Instance.AddScore(choice.score);
 
-        currentNPC.CompleteInteraction();
-
-        GameManager.Instance.NPCCompleted();
+        // Beritahu NPC hasil pilihan pemain
+        currentNPC.ProcessChoice(choice);
 
         CloseDialogue();
     }

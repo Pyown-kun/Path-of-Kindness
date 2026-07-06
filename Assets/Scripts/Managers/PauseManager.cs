@@ -36,9 +36,9 @@ public class PauseManager : MonoBehaviour
             return;
 
         if (IsPaused)
-            ResumeGame();
+            ClosePauseMenu();
         else
-            PauseGame();
+            OpenPauseMenu();
     }
 
     public void PauseGame()
@@ -85,5 +85,21 @@ public class PauseManager : MonoBehaviour
         ResumeGame();
 
         SceneController.Instance.LoadMainMenu();
+    }
+
+    public void OpenPauseMenu()
+    {
+        if (IsPaused)
+            return;
+
+        PauseGame();
+    }
+
+    public void ClosePauseMenu()
+    {
+        if (!IsPaused)
+            return;
+
+        ResumeGame();
     }
 }

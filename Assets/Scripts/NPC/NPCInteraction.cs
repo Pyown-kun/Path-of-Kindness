@@ -5,6 +5,9 @@ public class NPCInteraction : MonoBehaviour
     [SerializeField]
     private DialogueData dialogueData;
 
+    [SerializeField]
+    private NPCSituationController situationController;
+
     private bool interacted;
 
     public bool HasInteracted => interacted;
@@ -24,5 +27,21 @@ public class NPCInteraction : MonoBehaviour
     public void CompleteInteraction()
     {
         interacted = true;
+    }
+
+    public void ProcessChoice(DialogueChoice choice)
+    {
+        if (choice == null)
+            return;
+
+        // Jika jawaban benar, ubah situasi
+        if (choice.isCorrect)
+        {
+            situationController?.SolveSituation();
+        }
+
+        CompleteInteraction();
+
+        GameManager.Instance.NPCCompleted();
     }
 }
